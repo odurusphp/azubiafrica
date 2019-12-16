@@ -56,4 +56,13 @@ function confirm_query($result)
     }
 }
 
+/**
+ * This is a funciton 
+ * to perform mysql real escape
+ * 
+ * @return $ecapedValue
+ */
+function db_escape($connection,$string) {
+    return mysqli_real_escape_string($connection, $string);
+}
 ?>

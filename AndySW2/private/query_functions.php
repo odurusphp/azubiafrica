@@ -15,10 +15,10 @@ function insert_user($firstname, $lastname, $password, $email = "")
     $sql = "INSERT INTO USERS";
     $sql .= "(firstname,lastname,email,password)";
     $sql .= "VALUES (";
-    $sql .= "'" . escape_char($firstname) . "',";
-    $sql .= "'" . escape_char($lastname) . "',";
-    $sql .= "'" . escape_char($email) . "',";
-    $sql .= "'" . escape_char($password) . "'";
+    $sql .= "'" . db_escape($db, $firstname) . "',";
+    $sql .= "'" . db_escape($db, $lastname) . "',";
+    $sql .= "'" . db_escape($db, $email) . "',";
+    $sql .= "'" . db_escape($db, $password) . "'";
     $sql .= ")";
 
     $result = mysqli_query($db, $sql);
@@ -61,7 +61,7 @@ function find_user_by_id($id)
 
     $sql = "SELECT * FROM USERS ";
     $sql .= "WHERE USERID = ";
-    $sql .= "'". escape_char($id) ."'";
+    $sql .= "'". db_escape($db, $id) ."'";
     $result = mysqli_query($db, $sql);
     confirm_query($result);
     return $result;
@@ -81,11 +81,11 @@ function insert_company($companyname, $telephone, $email, $country, $address)
     $sql = "INSERT INTO COMPANIES";
     $sql .= "(companyname,telephone,email,country,address)";
     $sql .= "VALUES (";
-    $sql .= "'" . escape_char($companyname) . "',";
-    $sql .= "'" . escape_char($telephone) . "',";
-    $sql .= "'" . escape_char($email) . "',";
-    $sql .= "'" . escape_char($country) . "',";
-    $sql .= "'" . escape_char($address) . "'";
+    $sql .= "'" . db_escape($db, $companyname) . "',";
+    $sql .= "'" . db_escape($db, $telephone) . "',";
+    $sql .= "'" . db_escape($db, $email) . "',";
+    $sql .= "'" . db_escape($db, $country) . "',";
+    $sql .= "'" . db_escape($db, $address) . "'";
     $sql .= ")";
 
     $result = mysqli_query($db, $sql);
@@ -129,7 +129,7 @@ function find_company_by_id($id)
 
     $sql = "SELECT * FROM COMPANIES ";
     $sql .= "WHERE companyid = ";
-    $sql .= "'" . escape_char($id) . "'";
+    $sql .= "'" . db_escape($db, $id) . "'";
     $result = mysqli_query($db, $sql);
     confirm_query($result);
     return $result;
