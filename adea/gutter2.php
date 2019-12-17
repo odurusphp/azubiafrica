@@ -8,7 +8,7 @@
   
 
   <body>
-<h1>Print Nun String/h1>
+<h1>Print 5 and 3 Multiplles/h1>
 
 <?php function stringReverse($someString){
 
@@ -22,7 +22,14 @@ for ($i=1; $i<=$someNumber; $i++){
          echo "fizz";
          }
     }
+    return $i;
  }
+
+ <?php 
+ 
+ $print
+ 
+ ?>
 
 //split string into an array
 
