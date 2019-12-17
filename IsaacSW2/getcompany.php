@@ -37,7 +37,11 @@ VALUES ('$companyname',
 
 
 ?>
-
+<br/>
 <a href="company.php">
 GO BACK
+</a>
+<br/>
+<a href="listcompany.php">
+GET LIST
 </a>

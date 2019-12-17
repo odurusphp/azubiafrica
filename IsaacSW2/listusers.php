@@ -42,5 +42,11 @@ else{
     echo "No result found";
 }
 ?>
+
+
+<a href="users.php">
+GO BACK
+</a>
+
  </body>
 </html>

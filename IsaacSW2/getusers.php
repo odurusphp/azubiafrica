@@ -37,7 +37,11 @@ if (isset($_POST['saveuser']))
 
 ?>
 
-
+<br/>
 <a href="users.php">
 GO BACK
+</a>
+<br/>
+<a href="listusers.php">
+GET LIST
 </a>

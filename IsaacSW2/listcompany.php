@@ -44,5 +44,10 @@ else{
     echo "No result found";
 }
 ?>
+
+
+<a href="company.php">
+GO BACK
+</a>
  </body>
 </html>
