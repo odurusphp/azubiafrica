@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13b5366-8c72-411b-b40d-a82ca04c8598" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hilary/HilarySW2/dbConfig.php" afterPath="$PROJECT_DIR$/Hilary/HilarySW2/dbConfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company_submit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="company_submit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/company_submit.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_submit.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_submit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/user_submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding>
                 <marker date="1576750846712" expanded="true" signature="502:613" ph="INSERT INTO users... " />
               </folding>
@@ -220,12 +220,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576237408105</updated>
-      <workItem from="1576750906371" duration="247000" />
+      <workItem from="1576750906371" duration="711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525000" />
+    <option name="totallyTimeSpent" value="989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -306,42 +306,6 @@
     <entry file="file://$PROJECT_DIR$/IsaacSW2/listcompany.php" />
     <entry file="file://$PROJECT_DIR$/IsaacSW2/listusers.php" />
     <entry file="file://$PROJECT_DIR$/IsaacSW2/users.php" />
-    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/user_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1576750846711" expanded="true" signature="268:305" ph="SELECT first... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/user_submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1576750846712" expanded="true" signature="502:613" ph="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/dbConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -374,6 +338,42 @@
           <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <marker date="1576750846707" expanded="true" signature="738:888" ph="INSERT INTO companies... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/user_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1576750846711" expanded="true" signature="268:305" ph="SELECT first... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hilary/HilarySW2/user_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <marker date="1576750846712" expanded="true" signature="502:613" ph="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
