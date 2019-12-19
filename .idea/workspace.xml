@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a68b498-c66d-40f6-b18c-ce606111619c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdeaSW2/company.php" afterPath="$PROJECT_DIR$/AdeaSW2/company.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdeaSW2/connectDb.php" afterPath="$PROJECT_DIR$/AdeaSW2/connectDb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdeaSW2/listcompanies.php" afterPath="$PROJECT_DIR$/AdeaSW2/listcompanies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdeaSW2/submitCompany.php" afterPath="$PROJECT_DIR$/AdeaSW2/submitCompany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdeaSW2/usersList.php" afterPath="$PROJECT_DIR$/AdeaSW2/usersList.php" />
-    </list>
+    <list default="true" id="4a68b498-c66d-40f6-b18c-ce606111619c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +11,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="connectDb.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connectDb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AdeaSW2/connectDb.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
               <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gutter1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adea/gutter1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gutter2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adea/gutter2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -166,6 +180,11 @@
             <path>
               <item name="azubiafrica" type="b2602c69:ProjectViewProjectNode" />
               <item name="azubiafrica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="adea" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="azubiafrica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azubiafrica" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AdeaSW2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -202,12 +221,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576749483882</updated>
-      <workItem from="1576749487102" duration="610000" />
+      <workItem from="1576749487102" duration="717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="610000" />
+    <option name="totallyTimeSpent" value="717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -303,6 +322,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adea/gutter1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adea/gutter2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding />
         </state>
       </provider>
