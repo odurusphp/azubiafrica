@@ -9,6 +9,7 @@
   <body>
     <h1>Please fill this form</h1>
 
+ <!-- I wonder how your submit button worked because your action is not referencing any php file   -->
 <form method="post" action="submitCompany">
     Company Name:<p> <input type="text" name="companyname"/></p>
         <br/>

@@ -1,4 +1,6 @@
 <?php
+//Always set up ypu database to have a  password
+
 $servername = "localhost:3306";
 $username = "root";
 $password = "";

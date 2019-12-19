@@ -1,4 +1,8 @@
-<?php 
+<?php
+
+//Connection string must be included on every page rather than calling it  out
+// like you are doing below:
+//eg. include('connectDb.php')
 
 $mysqli= new mysqli('localhost','root','','azubi');
 if($mysqli->connect_errno){
