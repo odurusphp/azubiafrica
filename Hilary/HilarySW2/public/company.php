@@ -1,3 +1,5 @@
+<?php include('../private/initialize.php') ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,7 +9,7 @@
   <body>
     <h1>Company Info</h1>
     <div class="">
-      <form class="" action="company_submit.php" method="post">
+      <form class="" action="../private/company_submit.php" method="post">
         <b>Company Name</b>: <br>
         <input type="text" name="companyname" value=""><br>
         <b>Telephone</b>: <br>

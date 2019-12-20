@@ -1,5 +1,5 @@
 <?php
-  include_once 'dbConfig.php';
+  include_once('../private/initialize.php');
 ?>
 
 <!DOCTYPE html>
@@ -9,8 +9,8 @@
     <title></title>
   </head>
   <body>
-      <a href="index.php">Main Menu</a><br><br>
-      <b>Companies</b>
+      <a href="../index.php">Main Menu</a><br><br>
+      <h2>Companies</h2>
       <?php
 
       $sql_statement = "SELECT companyname FROM companies";

@@ -1,5 +1,5 @@
 <?php
-  include_once 'dbConfig.php';
+  include_once('../private/dbConfig.php');
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
     <title></title>
   </head>
   <body>
-      <a href="index.php">Main Menu</a><br><br>
+      <a href="../public/index.php">Main Menu</a><br><br>
       <b>User List</b>
 
       <?php
@@ -19,8 +19,6 @@
       $resultCheck = mysqli_num_rows($result);
       ?>
       <ul>
-
-
       <?php
       if ($resultCheck > 0) {
         while ($row = mysqli_fetch_assoc($result)){

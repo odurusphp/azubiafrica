@@ -6,10 +6,10 @@
   </head>
   <body>
     <ul>
-      <li> <a href="company.php">Create a company</a> </li>
-      <li> <a href="user.php">Create a user</a> </li>
-      <li> <a href="company_list.php">List of companies</a> </li>
-      <li> <a href="user_list.php">List of users</a> </li>
+      <li> <a href="public/company.php">Create a company</a> </li>
+      <li> <a href="public/user.php">Create a user</a> </li>
+      <li> <a href="public/company_list.php">List of companies</a> </li>
+      <li> <a href="public/user_list.php">List of users</a> </li>
     </ul>
   </body>
 </html>

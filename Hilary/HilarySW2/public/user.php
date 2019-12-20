@@ -7,7 +7,7 @@
   <body>
     <h1>User Info</h1>
     <div class="">
-      <form class="" action="user_submit.php" method="post">
+      <form class="" action="../private/user_submit.php" method="post">
         <b>Firstname</b>: <br>
         <input type="text" name="firstname"><br>
         <b>Lastname</b>: <br>

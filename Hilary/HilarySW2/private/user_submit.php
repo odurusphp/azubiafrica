@@ -2,7 +2,7 @@
   include_once 'dbConfig.php';
 
   ?>
-    <a href="index.php">Main Menu</a>
+    <a href="../index.php">Main Menu</a>
   <?php
   // $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
   //
@@ -12,10 +12,10 @@
   // }
 
   // Collect data into vars
-  $fname = $_POST['firstname'];
-  $lname = $_POST['lastname'];
-  $email = $_POST['email'];
-  $password = $_POST['password'];
+  $fname = h($_POST['firstname']);
+  $lname = h($_POST['lastname']);
+  $email = h($_POST['email']);
+  $password = h($_POST['password']);
 
   // Attempt to insert data
   $sql_statement = "INSERT INTO users (firstname, lastname, email, password)
