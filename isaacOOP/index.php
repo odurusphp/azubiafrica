@@ -8,8 +8,8 @@ class Calculations {
         return $score;
     }
 
-    public function AverageScore() {
-
+    public function AverageScore($avscore) {
+       return $avscore;
     }
 
 }
