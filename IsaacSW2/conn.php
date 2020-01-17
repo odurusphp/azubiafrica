@@ -7,4 +7,8 @@ $conn=mysqli_connect($hostname,$username,$password,"$dbname");
 if(!$conn){
    die('Could not Connect My Sql:' .mysql_error());
 }
+
+// You cannot use mysql9 and later use mysql
+//Not permitted at all
+
 ?>
