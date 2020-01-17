@@ -3,13 +3,17 @@
 class Calculations {
 
     public $score = 89;
+    public $studentscores =   [77, 40 , 89, 65, 100, 55,  70, 80, 33, 85, 96, 88];
 
     public static function TotalScore($score) {
-        return $score;
+        $sum = array_sum($score);
+        return $sum;
     }
 
     public function AverageScore($avscore) {
-       return $avscore;
+        $sumarray = array_sum($avscore);
+        $countarray = count($avscore);
+        return ($sumarray/$countarray);
     }
 
 }
@@ -21,6 +25,7 @@ class StudentRanking extends Calculations {
     }
 }
 
+$newObject = new Calculations();
 
 
 function Ranking() {
@@ -34,4 +39,8 @@ function Ranking() {
     }
 }
 
-echo Ranking();
+$studentscores =   [77, 40 , 89, 65, 100, 55,  70, 80, 33, 85, 96, 88];
+
+echo "Sum of marks is ".Calculations::TotalScore($studentscores)."<br/>";
+echo "Average of marks is ".$newObject->AverageScore($studentscores)."<br/>";
+echo Ranking()." is the ranking of marks";
